@@ -15,7 +15,7 @@ const Content = ({ recipeInfo, showRecipeList, content, recipes, loading }) => {
             <Loader />
           ) : (
             recipeInfo.results.map((el) => (
-              <Link to={`recipe/${el.id}`} key={el.id}>
+              <Link to={`/tasty-app/recipe/${el.id}`} key={el.id}>
                 <RecipeCard key={el.id} data={el} />
               </Link>
             ))

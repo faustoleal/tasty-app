@@ -19,7 +19,7 @@ const MenuContent = ({ res, showRecipeList, setShow }) => {
       <ul className={`menu-content ${open ? "is-active" : "is-hidden"}`}>
         {res.type.length > 0 ? (
           res.type.map((el) => (
-            <Link to={`/recipelist/${el.id}`} key={el.id}>
+            <Link to={`/tasty-app/recipelist/${el.id}`} key={el.id}>
               <MenuContentList
                 key={el.id}
                 data={el}

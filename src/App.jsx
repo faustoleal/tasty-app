@@ -175,7 +175,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="/"
+            path="/tasty-app/"
             element={
               <Content
                 recipes={recipe}
@@ -187,7 +187,7 @@ function App() {
             }
           />
           <Route
-            path="/recipelist/:id"
+            path="/tasty-app/recipelist/:id"
             element={
               <Content
                 recipes={recipe}
@@ -199,7 +199,7 @@ function App() {
             }
           />
           <Route
-            path="/recipe/:id"
+            path="/tasty-app/recipe/:id"
             element={
               <RecipeDetails
                 recipes={recipe}
@@ -209,7 +209,7 @@ function App() {
             }
           />
           <Route
-            path="/recipelist/:id/recipe/:id"
+            path="/tasty-app/recipelist/:id/recipe/:id"
             element={
               <RecipeDetails
                 recipes={recipe}

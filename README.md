@@ -1,8 +1,23 @@
-# React + Vite
+# Tasty APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Pagina web realiza con la API de Tasty
 
-Currently, two official plugins are available:
+Herramientas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- HTML
+- CSS
+- React.js
+- Vite.js
+- react-router-dom
+- MaterialUI
+- Tasty API
+
+Version de Escritorio
+
+![Escritorio](img/tasty-desktop.png)
+
+Version Mobile
+
+![Mobile](img/tasty-mobile.png)
+
+[Ver pagina](https://faustoleal.github.io/tasty-app/)

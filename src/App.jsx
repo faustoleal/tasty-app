@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import Content from "./components/Content";
 import RecipeDetails from "./components/RecipeDetails";
@@ -172,10 +172,10 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route
-            path="/tasty-app/"
+            path="/"
             element={
               <Content
                 recipes={recipe}
@@ -219,7 +219,7 @@ function App() {
             }
           />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
